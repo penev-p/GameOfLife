@@ -1,0 +1,18 @@
+﻿<Window x:Class="GameOfLife.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameOfLife"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="766.4" Width="862.685">
+    <Grid Margin="10,0,51,36.4">
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <Button x:Name="buttonStartStop" Content="Start" Click="Start_Button_Click" Margin="10,10,681,654.4"/>
+        <Canvas x:Name="Board" HorizontalAlignment="Left" Height="692" Margin="114,10,0,0" VerticalAlignment="Top" Width="693"/>
+        <Button x:Name="Clear" Content="Clear" Margin="10,51,681,615.4" Click="Button_Clear"/>
+
+    </Grid>
+</Window>
